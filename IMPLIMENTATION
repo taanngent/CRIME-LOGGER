@@ -1,0 +1,7 @@
+IMPLEMENTATION
+
+First of all, we will analyse the shortest distance between all the crimes and timing of crime in the society. And judge if there is any possibility that a criminal was involved in more than one. We will find the shortest distance between two crime scene by Dijkstra. 
+Then software need the information related to victim and the crime scene. Software will convert all the information into a string. By using KMP algorithm we will try to match the whole information with the past record. Software will give names of those past criminal whose killing pattern is similar to today crime. 
+Now the question arises, why we are making all information string and use KMP, when we have map which have better complexity?
+And its answer is simple, police record contains thousands of thousands name and their different pattern. If we use map to store each and every pattern, then we will face the problem of space. That’s why we use String. 
+As we have given the ratings to every every information. We will calculate the ratings after match. Then hash the names of all past criminal that has similar crime cases.
