@@ -1,0 +1,9 @@
+LIST OF CONCEPTS AND DATA STRUCTURES USED
+
+We will use STL as it is very convenient in this project.
+The main Data structures which we are using in our project would be the concept of Hashing. Further in Hashing we are using the concept of linear probing to store the desired keywords.
+In addition to it we are using the concept of file handling to store the information of criminals and pattern.
+We are also using the concept of KMP algorithm to search in most efficient manner. 
+We will  use concept of graph too.
+In short we are using these many concepts:
+Hashing(Linear probing), KMP Algorithm, graph, STL, Array, File Handling.
